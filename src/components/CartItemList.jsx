@@ -9,7 +9,7 @@ const CartItemList = () => {
       {cartItems.map((item)=>{
         return <CartItem key={item.cartID} cartItem={item}/>
       })}
-      
+      {/*  */}
     </>
   )
 }
