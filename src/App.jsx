@@ -15,6 +15,7 @@ import { action as loginAction } from './pages/Login';
 import { action as checkoutAction } from './components/CheckoutForm';
 import { store } from './store';
 
+
 const queryClient = new QueryClient({
   defaultOptions:{
     queries:{
